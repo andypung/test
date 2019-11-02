@@ -1,0 +1,11 @@
+/*css索引 id名稱用 # 開頭*/
+#aaa{
+	background: orange;
+ 	font-size: 24px;
+}
+
+/*css索引 class名稱用 . 開頭*/
+.aaa{
+	background: red;
+ 	font-size: 24px;
+}
