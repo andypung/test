@@ -9,3 +9,17 @@
 	background: red;
  	font-size: 24px;
 }
+/*css 定義 p標籤格式*/
+p{
+	box-sizing:border-box;
+	background:yellow;/*背景顏色*/
+	border-top:5px double gray;
+	border-right:15px dashed blue;
+	border-bottom:10px solid black;
+	border-left:3px dotted gold;/*邊框寬度及邊框顏色*/
+	border-radius:10px;
+	height:100px;/*高度*/
+	margin:20px 50px 0px 10px;/*邊界離框架距離，2個數字時，20px設定上下距離，50px設定左右距離;4個數字時，分別設定上右下左*/
+	padding:25px;/*文字離邊界距離*/
+	width:1000px;/*寬度*/
+}
