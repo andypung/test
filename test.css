@@ -23,3 +23,51 @@ p{
 	padding:25px;/*文字離邊界距離*/
 	width:1000px;/*寬度*/
 }
+header{
+	background:green;
+	height:100px;
+	margin:30px;
+	padding:25px;
+	border-radius:10px;
+}
+section{
+	background:green;
+	height:100px;
+	width:30%;
+	margin:0 1%;
+	padding:25px;
+	border-radius:10px;
+	float:left;/*設定標籤佔位及大小*/
+}
+aside{
+	background:green;
+	height:100px;
+	width:60%;
+	margin:0 1%;
+	padding:25px;
+	border-radius:10px;
+	float:right;
+}
+footer{
+	background:green;
+	height:100px;
+	margin:30px;
+	padding:25px;
+	border-radius:10px;
+	clear:both;
+}
+.group:before,
+.group:after{
+	content: "";
+	display: table;
+}
+.group:after{
+	clear:both;
+}
+.group{
+	margin:30px;
+	padding:25px;
+	background:gray;
+	clear:both;
+	*zoom: 1;
+}
